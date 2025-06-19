@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стоматологическая клиника Мир Улыбки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">Стоматологическая клиника Мир Улыбки</div>
+            <div class="contact-info">+375 (44) 700-400 | Пн-Пт: 8:00-20:00</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Главная">Главная</a></li>
+                <li><a href="#Прайс">Прайс</a></li>
+                <li><a href="services.html">Услуги</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>ЗАКАЗ ТАЛОНОВ</h1>
+        <p>Запишитесь к врачу через регистратуру!</p>
+        <p>Позвоните в регистратуру по телефону: +375(44)700-400.</p>
+        <button id="appointmentBtn">Заказать талон</button>
+        <button id="servicesBtn">Услуги</button>
+        <div id="servicesQR"></div>
+        <div id="appointmentForm" class="form-popup">
+            <form>
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="phone">Телефон:</label><br>
+                <input type="tel" id="phone" name="phone" required><br>
+                <button type="submit">Отправить</button>
+                <button type="button" id="closeFormBtn">Закрыть</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>«Мир Улыбки» — Ваша надёжный партнёр в заботе о здоровье улыбки в Пинске!</p>
+        <p>Мы всегда на связи с Вами! Мы предлагаем комплексный подход в решении стоматологических проблем.</p>
+    </section>
+
+    <section id="stats">
+        <div class="stat">3000+ пациентов</div>
+        <div class="stat">15+ специалистов</div>
+        <div class="stat">25 лет работы</div>
+        <div class="stat">25+ процедур</div>
+    </section>
+
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="service">
+            <h3>Терапия</h3>
+            <p>Лечение кариеса, восстановление, перепломбировка корневых каналов, подготовка полости рта к протезированию.</p>
+        </div>
+        <div class="service">
+            <h3>Ортопедия</h3>
+            <p>Ортопедическая стоматология позволяет восстановить отсутствующие зубы и исправить недостатки улыбки.</p>
+        </div>
+        <div class="service">
+            <h3>Хирургия</h3>
+            <p>Хирургия зубов необходима в лечении сложных случаев заболеваний, а также при подготовке к установке имплантов.</p>
+        </div>
+        <div class="service">
+            <h3>Консультации</h3>
+            <p>Обратитесь за консультацией к опытным специалистам для диагностики и составления плана лечения.</p>
+        </div>
+        <div class="service">
+            <h3>Поддержка</h3>
+            <p>Постгарантийное обслуживание и помощь в поддержании здоровья зубов после лечения.</p>
+        </div>
+        <div class="service">
+            <h3>Скорая помощь</h3>
+            <p>Неотложная помощь в экстренных ситуациях, включая снятие острой боли и первичную обработку.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo"></div>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p>+375 (44) 700-400<br>г. Пинск, ул. Ленина, 39</p>
+            </div>
+            <div class="footer-section">
+                <h4>Пн-Пт</h4>
+                <p>8:00 - 20:00</p>
+            </div>
+            <div class="footer-section">
+                <h4>Суббота - Воскресенье</h4>
+                <p>Выходной<br>Приём врачей: 09:00 - 14:00</p>
+            </div>
+        </div>
+        <p class="footer-text">В наших отделениях можно получить консультацию по всем видам стоматологических услуг, так и достаточно редких стоматологических направлений, что позволяет решить большинство проблем с зубами в одном месте.</p>
+        <p class="footer-bottom">Terms of use | Privacy | Environmental Policy</p>
+        <p class="copyright">© 2025, г. Стоматологическая поликлиника Мир Улыбки</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
